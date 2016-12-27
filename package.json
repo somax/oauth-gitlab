@@ -1,12 +1,12 @@
 {
   "name": "oauth-gitlab",
-  "version": "1.0.0",
-  "description": "",
+  "version": "0.1.0",
+  "description": "用来集成 gitlab 的 oAuth 认证",
   "main": "index.js",
   "scripts": {
     "test": "node test/demo.js"
   },
-  "author": "",
+  "author": "MaXiaojun <somaxj@163.com>",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.13.2",
@@ -16,6 +16,19 @@
     "express": "^4.13.1",
     "express-session": "^1.11.3",
     "morgan": "^1.6.1",
-    "passport": "^0.2.2",    "passport-gitlab2": "^2.2.0"
-  }
+    "passport": "^0.2.2",
+    "passport-gitlab2": "^2.2.0"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/somax/oauth-gitlab.git"
+  },
+  "bugs": {
+    "url": "https://github.com/somax/oauth-gitlab/issues"
+  },
+  "homepage": "https://github.com/somax/oauth-gitlab#readme"
 }
